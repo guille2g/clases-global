@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 50px auto;
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid black;
+    padding: 20px;
+}
+
+input,
+label {
+    margin: 10px auto;
+    width: 75%;
+    justify-content: center;
+    display: flex;
+}
+
+.button {
+    display: flex;
+    width: 62%;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-color: white;
+}
+
+label {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 5px;
+    font-weight: bold;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: black;
+    height: 25px;
+    color: white;
+}
